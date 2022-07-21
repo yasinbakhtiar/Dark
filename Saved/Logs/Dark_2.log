@@ -5128,3 +5128,87 @@ FlashLightBluePrints_C.ReceiveBeginPlay
 [2022.07.21-15.39.58:755][ 52]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA316AB3B-48B2-D5D3-E722-8C9CEE795A3B%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=5.0.2-0%2B%2B%2BUE5%2BRelease-5.0&UserID=ab957b9841ba178e5878ff9ff9d1ece0%7C6df81072395a4062afaa2c2d83ce8393%7Cb9f36fb8-b5e0-4f37-8ccf-d5e1f37aff20&AppEnvironment=datacollector-binary&UploadType=eteventstream
 [2022.07.21-15.40.15:673][469]LogSlate: Window 'Project Settings' being destroyed
 [2022.07.21-15.40.15:683][469]LogSlate: Window 'Project Settings' being destroyed
+[2022.07.21-15.41.29:259][ 86]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.07.21-15.41.29:265][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.21-15.41.29:265][ 86]PIE: New page: PIE session: MainMenu (Jul 22, 2022, 12:41:29 AM)
+[2022.07.21-15.41.29:266][ 86]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2022.07.21-15.41.29:267][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001722s)
+[2022.07.21-15.41.29:267][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001812s)
+[2022.07.21-15.41.29:267][ 86]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.21-15.41.29:268][ 86]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.21-15.41.29:268][ 86]LogAIModule: Creating AISystem for world MainMenu
+[2022.07.21-15.41.29:269][ 86]LogPlayLevel: PIE: World Init took: (0.001133s)
+[2022.07.21-15.41.29:467][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2022.07.21-15.41.29:471][ 86]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2022.07.21-15.41.29:471][ 86]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.21-15.41.29:471][ 86]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.21-15.41.29:471][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.21-15.41.29:472][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.21-15.41.29:472][ 86]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.21-15.41.29:472][ 86]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.21-15.41.29:472][ 86]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.21-15.41.29:472][ 86]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.21-15.41.29:472][ 86]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.21-15.41.29:472][ 86]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.21-15.41.29:472][ 86]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.21-15.41.29:474][ 86]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.21-15.41.29:528][ 86]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2022.07.21-15.41.29:528][ 86]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.21-15.41.29:529][ 86]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.21-15.41.29:529][ 86]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.21-15.41.29:530][ 86]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2022.07.21-15.41.29:530][ 86]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2022.07.21-15.41.29:532][ 86]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2022.07.21-15.41.29:532][ 86]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2022.07.21-15.41.29:532][ 86]LogInit: FAudioDevice initialized.
+[2022.07.21-15.41.29:532][ 86]LogAudio: Display: Audio Device (ID: 61) registered with world 'MainMenu'.
+[2022.07.21-15.41.29:563][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.21-15.41.29:564][ 86]LogLoad: Game class is 'GameModeBase'
+[2022.07.21-15.41.29:564][ 86]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2022.07.21-20.11.29
+[2022.07.21-15.41.29:565][ 86]LogWorld: Bringing up level for play took: 0.001252
+[2022.07.21-15.41.29:568][ 86]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2022.07.21-15.41.29:580][ 86]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.07.21-15.41.29:580][ 86]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2022.07.21-15.41.29:583][ 86]PIE: Server logged in
+[2022.07.21-15.41.29:585][ 86]PIE: Play in editor total start time 0.32 seconds.
+[2022.07.21-15.41.29:586][ 86]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Wind'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2022.07.21-15.41.29:599][ 86]LogViewport: Scene viewport resized to 1913x970, mode Windowed.
+[2022.07.21-15.41.35:331][597]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2022.07.21-15.41.37:377][787]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [Scalability]
+[2022.07.21-15.41.40:714][ 85]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [Scalability]
+[2022.07.21-15.41.44:504][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.21-15.41.44:504][410]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2022.07.21-15.41.44:504][410]LogSlate: Window 'Dark Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.07.21-15.41.44:512][410]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2022.07.21-15.41.44:513][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.21-15.41.44:527][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.21-15.41.44:535][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.21-15.41.44:595][410]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2022.07.21-15.41.44:597][410]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2022.07.21-15.41.44:607][410]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2022.07.21-15.41.44:627][411]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2022.07.21-15.41.46:175][552]Launching UnrealBuildTool... [D:/Desktop/Unreal 5/UE-5.0.2/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -Mode=QueryTargets -Output="D:/Desktop/Unreal 5/UE-5.0.2/Engine/Intermediate/TargetInfo.json"]
+[2022.07.21-15.41.46:459][552]Building UnrealBuildTool...
+[2022.07.21-15.41.46:476][552]Building UnrealBuildTool in D:/Desktop/Unreal 5/UE-5.0.2/...
+[2022.07.21-15.41.46:477][552]Running: C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe /nologo /verbosity:quiet "D:/Desktop/Unreal 5/UE-5.0.2/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj" /property:Configuration=Development /property:Platform=AnyCPU
+[2022.07.21-15.41.46:621][552]Launching UnrealBuildTool... [D:/Desktop/Unreal 5/UE-5.0.2/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -Mode=QueryTargets -Output="D:/Desktop/Unreal 5/UE-5.0.2/Engine/Intermediate/TargetInfo.json"]
+[2022.07.21-15.41.46:739][552]LogDesktopPlatform: Warning: Unable to read target info for engine
+[2022.07.21-15.41.46:741][552]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-30JKCII
+[2022.07.21-15.41.46:742][552]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="D:/Desktop/Unreal projects/Dark/Dark.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Desktop/Unreal projects/Dark/Intermediate/TurnkeyReport_1.log" -log="D:/Desktop/Unreal projects/Dark/Intermediate/TurnkeyLog_1.log" -project="D:/Desktop/Unreal projects/Dark/Dark.uproject"  -Device=Win64@DESKTOP-30JKCII'
+[2022.07.21-15.41.46:742][552]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/Desktop/Unreal 5/UE-5.0.2/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Desktop/Unreal projects/Dark/Dark.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Desktop/Unreal projects/Dark/Intermediate/TurnkeyReport_1.log" -log="D:/Desktop/Unreal projects/Dark/Intermediate/TurnkeyLog_1.log" -project="D:/Desktop/Unreal projects/Dark/Dark.uproject"  -Device=Win64@DESKTOP-30JKCII" -nocompile ]
+[2022.07.21-15.41.47:544][624]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-30JKCII
+[2022.07.21-15.41.49:226][686]LogEditorViewport: Clicking Background
+[2022.07.21-15.41.51:657][894]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-30JKCII
+[2022.07.21-15.42.10:226][355]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-30JKCII
+[2022.07.21-15.42.12:931][670]LogTurnkeySupport: Completed device detection: Code = 0
+[2022.07.21-15.42.12:931][670]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/Desktop/Unreal 5/UE-5.0.2/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Desktop/Unreal projects/Dark/Dark.uproject" Turnkey -command=VerifySdk -UpdateIfNeeded -platform=Win64 -noturnkeyvariables -device=DESKTOP-30JKCII -utf8output -WaitForUATMutex  -EditorIO -EditorIOPort=57257  -project="D:/Desktop/Unreal projects/Dark/Dark.uproject"" -nocompile ]
+[2022.07.21-15.42.12:931][670]LogTurnkeySupport: Turnkey Device: Win64@DESKTOP-30JKCII: (Name=DESKTOP-30JKCII, Status=Valid, Installed=10.0.22000.0, MinAllowed=10.0.18362.0, MaxAllowed=, Flags="Device_InstallSoftwareValid")
+[2022.07.21-15.42.14:671][788]LogSlate: Window 'SDK Verification' being destroyed
+[2022.07.21-15.42.16:582][950]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-30JKCII
+[2022.07.21-15.42.18:263][127]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2022.07.21-15.42.24:337][127]LogSlate: Window 'Save Content' being destroyed
+[2022.07.21-15.42.24:399][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/FlashLightBluePrints" FILE="../../../../../Unreal projects/Dark/Content/BluePrints/FlashLightBluePrints.uasset" SILENT=true
+[2022.07.21-15.42.24:408][127]LogSavePackage: Moving output files for package: /Game/BluePrints/FlashLightBluePrints
+[2022.07.21-15.42.24:408][127]LogSavePackage: Moving '../../../../../Unreal projects/Dark/Saved/FlashLightBluePrintsE5D0AB16458A811B4B063CB6ADE66E32.tmp' to '../../../../../Unreal projects/Dark/Content/BluePrints/FlashLightBluePrints.uasset'
+[2022.07.21-15.42.24:511][128]AssetCheck: New page: Asset Save: FlashLightBluePrints
+[2022.07.21-15.42.24:511][128]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/FlashLightBluePrints.FlashLightBluePrints
